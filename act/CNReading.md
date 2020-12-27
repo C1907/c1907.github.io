@@ -1,4 +1,4 @@
 # 文言文朗诵活动
 
 ## 资料
-- [文言文资料](https://c1907.github.io/act/CNReading/Chinese1)
+- [文言文资料](https://c1907.github.io/act/Chinese1)
