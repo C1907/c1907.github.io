@@ -7,7 +7,7 @@
 - 暂无
 
 ## 班级风采：
-[班级文言文朗诵(待办)]()
+[班级文言文朗诵(待办)](https://c1907.github.io/passage/act/CNReading)
 
 ## 学习天地
 [学生美文](https://c1907.github.io/passage)
