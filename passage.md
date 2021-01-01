@@ -4,3 +4,5 @@
 2. [我在七班](https://c1907.github.io/pas/tyc1) by `唐宇超`
 
 3. [我在七班](https://c1907.github.io/pas/lyt1.html) by `罗雅婷`
+
+4. [我在七班](https://c1907.github.io/pas/wnn1.html) by `吴妮娜`
