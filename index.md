@@ -14,6 +14,7 @@
 
 ## 学习天地
 [学生美文](https://c1907.github.io/passage)
+[元旦汇演](https://c1907.github.io/act/NewYear1)
 
 
 -------------------
