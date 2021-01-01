@@ -10,3 +10,5 @@
 5. [有你真好](https://c1907.github.io/pas/cjy1.html) by `谌婕雅`
 
 6. [我在七班](https://c1907.github.io/pas/lh1.html) by `刘鸿`
+
+7. [我在七班](https://c1907.github.io/pas/gjx1.html) by `葛佳萱`
