@@ -12,5 +12,18 @@
     <p><input type="submit" value="submit"></p>
 </form>
 
+<script>
+server {
+   listen       80;
+   server_name  域名;
+    
+   location /{
+      root /www/文件目录;
+      index index.html index.htm index.php;
+      error_page 405 =200 http://$host$request_uri;
+   }
+}
+</script>
+
 </body>
 </html>
