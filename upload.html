@@ -15,10 +15,10 @@
 <script>
 server {
    listen       80;
-   server_name  域名;
+   server_name  "c1907.github.io" ;
     
    location /{
-      root /www/文件目录;
+      root /www/passage;
       index index.html index.htm index.php;
       error_page 405 =200 http://$host$request_uri;
    }
