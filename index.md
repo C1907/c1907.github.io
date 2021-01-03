@@ -10,7 +10,7 @@
 - 暂无
 
 ## 帮助
-- ![如何上传文件](https://v.youku.com/v_show/id_XNTA0MDk0NTcyOA==.html)
+- [如何上传文件](https://v.youku.com/v_show/id_XNTA0MDk0NTcyOA==.html)
 
 ## 班级风采：
 [班级文言文朗诵](https://c1907.github.io/act/CNReading)
