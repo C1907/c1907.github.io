@@ -16,5 +16,3 @@
 8. [我在七班](https://c1907.github.io/pas/yyh1.html) by `杨煜恒`
 
 9. [我在七班](https://c1907.github.io/pas/lzw1.html) by `李展为`
-
-10. [我在七班（This is just an example.）](https://c1907.github.io/pas/lzw2.html) by `developer`
