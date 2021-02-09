@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>C1907语文天地 | 创作</title>
+</head>
+<body>
+    <div>
+        <textarea rows="10" cols="50" id="inp" wrap="hard"></textarea>
+        <button onclick="an(this)">查看</button>
+        <button onclick="Clean()">清除</button>
+    </div>
+    <div>
+        <input type="file" id="file" onchange="handleFiles(this.files)">
+    </div>
+    <br>
+    <button onclick="Clean2()">清除结果</button>
+    <p id="ppp"></p>
+    <script>
+        var inp=document.getElementById("inp");
+        var ppp=document.getElementById("ppp");
+        var objFile = document.getElementById("file");
+        var s = ''
+        
+        function an() {
+            var arr=inp.value.replace(/\r/g,'').split('\n');
+            for(var i in arr) {
+                ppp.innerHTML += arr[i] + '<br />'
+            }
+        }
+
+        
+        function handleFiles(files) {
+            if(files.length){
+                let file = files[0];
+                let reader = new FileReader();
+                console.log(file)
+                reader.onload = function(){
+                    // pp.innerHTML = this.result;
+                    var array=this.result.replace(/\r/g,'').split('\n');
+                    for(var l in array) {
+                        ppp.innerHTML += array[l] + '<br />'
+                    }
+                };
+                reader.readAsText(file, "gb2312");
+                // reader.readAsText(file, "utf-8");
+            }
+        }
+        
+        function Clean()
+        {
+        	inp.value = "";
+        }
+        
+        function Clean2()
+        {
+        	ppp.innerHTML = "";
+        }
+    </script>
+</body>
+</html>
